@@ -1,0 +1,65 @@
+
+.pin{
+    box-shadow: 0 15px 45px -20px blue;
+    padding: 3% 3%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    border: 0.2px solid blue;
+}
+.alpha{
+    font-size: 35px;
+}
+.btn{
+    border: 2px solid blue;
+    width: 25%;
+    padding: 1% 1%;
+    border-radius: 45%;
+    
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    width: 20%;
+}
+.bigone{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+.pinin{
+    box-shadow: 0 15px 45px -20px blue;
+    padding: 3% 3%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 0.2px solid blue;
+}
+.btnin{
+    border: 2px solid blue;
+    width: 25%;
+    padding: 1% 1%;
+    border-radius: 45%;
+    margin-left: 70%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.btnin:hover{
+    background-color: blue;
+    color: white;
+    font-style: italic;
+}
+.mali{
+    color: blue;
+}
+.para{
+    padding: 4% 4%;
+}
+.par{
+    padding: 1% 2%;
+}
+.mycol{
+    color: blue;
+}
