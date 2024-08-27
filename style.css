@@ -1,10 +1,15 @@
-
+.sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .pin{
+    display: none;
     box-shadow: 0 15px 45px -20px blue;
     padding: 3% 3%;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 10%;
+    width: 40vw;
     border: 0.2px solid blue;
 }
 .alpha{
@@ -15,7 +20,6 @@
     width: 25%;
     padding: 1% 1%;
     border-radius: 45%;
-    
     font-weight: bold;
 }
 .btn:hover{
@@ -30,10 +34,10 @@
     justify-content: center;
 }
 .pinin{
+    display: none;
     box-shadow: 0 15px 45px -20px blue;
     padding: 3% 3%;
-    width: 50%;
-    margin-left: 25%;
+    width: 50vw;
     margin-top: 5%;
     border: 0.2px solid blue;
 }
@@ -53,6 +57,9 @@
 }
 .mali{
     color: blue;
+    border: 2px solid blue;
+    padding: 2.5% 5%;
+    box-shadow: 0 15px 45px -20px blue;
 }
 .para{
     padding: 4% 4%;
@@ -62,4 +69,114 @@
 }
 .mycol{
     color: blue;
+}
+.bigbody{
+    display: flex;
+    justify-content: center;
+}
+.tst1{
+    display: none;
+    border: 2px solid blue;
+    justify-content: center;
+    width: 60%;
+    margin-top: 1%;
+    padding: 1% 2%;
+}
+.tst1 header{
+    display: flex;
+    border-bottom: 2px solid blue;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 0 15px 45px -35px blue; */
+}
+.tst1 header h1{
+    margin-left: 10%;
+    padding: 1% 7%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.tst1 header div{
+    padding: 1% 3%;
+    background: rgba(0, 0, 255, 0.308);
+    font-weight: 600;
+    font-size: 26px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+.ubi{
+    background: black;
+    padding: 1% 5%;
+    color: white;
+}
+.textinfa{
+    text-align: left;
+    padding: 0 10px;
+}
+.textinfa h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0% 2%;
+}
+.textinfa div{
+    font-size: 25px;
+    font-style: italic;
+    border: 1px solid blue;
+    padding: 1.5% 2%;
+    margin: 2% 0;
+}
+.textinfa div:hover{
+    background: blue;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 255, 0.267);
+    font-style: normal;
+    font-family: monospace;
+    transition: all 0.3s ease;
+}
+.lastman{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2%;
+}
+.lastman p{
+    padding: 0 2%;
+    width: 40%;
+}
+.lastman p b{
+    padding: 0 4%;
+}
+.btnina{
+    border: 2px solid blue;
+    width: 20%;
+    padding: 1px 1px;
+    border-radius: 10%;
+    font-weight: bold;
+}
+.btnina:hover{
+    background-color: blue;
+    color: white;
+    font-style: italic;
+}
+.ress{
+    /* display: none; */
+    padding: 5% 5%;
+    border: 2px solid blue;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    box-shadow: 0 15px 45px -20px blue;
+}
+.ress h2{
+    font-style: italic;
+}
+.ress span{
+    display: flex;
+    align-items: center;
+}
+.ress span p{
+    padding: 0 3%;
+    font-weight: 600;
+    font-size: 20px;
 }
