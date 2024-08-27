@@ -161,22 +161,38 @@
 }
 .ress{
     /* display: none; */
-    padding: 5% 5%;
+    padding: 3% 3%;
     border: 2px solid blue;
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     text-align: center;
     box-shadow: 0 15px 45px -20px blue;
 }
+.ress h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 2% 0;
+}
 .ress h2{
+    font-size: 20px;
     font-style: italic;
 }
 .ress span{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin: 2% 0;
 }
 .ress span p{
     padding: 0 3%;
     font-weight: 600;
     font-size: 20px;
+}
+.bigoneend{
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    justify-content: center;
+    margin-top: 5%;
 }
