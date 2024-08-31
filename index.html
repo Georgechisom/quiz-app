@@ -11,17 +11,17 @@
     <div class="sect">
         <section>
             <div class="pin">
-                <h1 class="text-center p-3 m-4 font-semibold text-blue-700 alpha">Winsome Test</h1>
+                <h1 class="text-center p-3 m-4 font-bold text-blue-700 alpha">Winsome Test</h1>
                 <h3 class="text-center p-5 m-5 font-semibold text-blue-700">Test Your Knowledge</h3>
                 <div class="bigone">
-                    <button type="button" class="btn me-5 text-blue-700">Start Quiz</button>
+                    <button type="button" id="start_quiz" class="btn me-5 text-blue-700">Read Guidelines</button>
                     <button type="button" class="btn text-blue-700">End Quiz </button>
                 </div>
             </div>
         </section>
     
         <section>
-            <div class="pinin">
+            <div class="pinin" id="pina">
             <h1 class="text-center text-4xl font-bold mali">Quiz Guide lines </h1>
             <p class="para">
                 <ul>
@@ -33,24 +33,519 @@
                     <li class="par"> you will be <b class="mycol">scored</b> based on your <b class="mycol">correct answers</b></li>
                 </ul>
             </p>
-            <button type="button" class="btnin text-blue-700">Continue </button>
+            <button type="button" class="btnin text-blue-700">Start Now </button>
         </div>
         </section>
     
-        <div class="tst1">
-            <header>
+        <div class="text">
+            <header class="mainhead">
                 <h1>Winsome Test Quiz</h1>
-                <div>Time Left <span class="ubi">15</span> </div>
+                <div>Time Left <span class="ubi" id="millisecs">15</span> </div>
             </header>
-            <section class="textinfa">
-                <h1>What is ICT ?</h1>
-                <div>1: Information comment tectnology</div>
-                <div>2: Infor commentation technology</div>
-                <div>3: Information communication technology</div>
-                <div>4: Important command techfund</div>
-            </section>
+            <div class="tst1">
+                <section class="textinfa">
+                    <h1>What is ICT ?</h1>
+                    <div class="wrong1">1: Information comment tectnology</div>
+                    <div class="wrong2">2: Infor commentation technology</div>
+                    <div class="correct" value="">3: Information communication technology</div>
+                    <div class="wrong3">4: Important command techfund</div>
+                </section>
+            </div>
+
+            <div class="tst2">
+                <section class="textinfa">
+                    <h1>What is CSS ?</h1>
+                    <div class="wrong4">1: Casading System Styles </div>
+                    <div class="wrong5">2: Computing Systems Structures </div>
+                    <div class="wrong6">3: Comercial System Specimen </div>
+                    <div class="correct1">4: Cascading Style Sheets</div>
+                </section>
+            </div>
+    
+            <div class="tst3">
+                <section class="textinfa">
+                    <h1>3 + 3 ?</h1>
+                    <div class="wrong7">1: 5</div>
+                    <div class="wrong8">2: 50</div>
+                    <div class="correct2">3: 6</div>
+                    <div class="wrong9">4: 9</div>
+                </section>
+            </div>
+    
+            <div class="tst4">
+                <section class="textinfa">
+                    <h1>3+1</h1>
+                    <div class="wrong10" >1: 3</div>
+                    <div class="correct3">2: 4</div>
+                    <div class="wrong11">3: 5</div>
+                    <div class="wrong12">4: None of the above</div>
+                </section>
+            </div>
+    
+            <div class="tst5">
+                <section class="textinfa">
+                    <h1>5 * 5 ?</h1>
+                    <div class="wrong13">1: 10</div>
+                    <div class="wrong15">2: 5</div>
+                    <div class="wrong14">3: 20</div>
+                    <div class="correct4">4: 25</div>
+                </section>
+            </div>
+
+            <div class="tst6">
+                <section class="textinfa">
+                    <h1>Is English a language ?</h1>
+                    <div class="wrong16">1: No</div>
+                    <div class="correct5">2: Yes</div>
+                    <div class="wrong17">3: Not Sure</div>
+                    <div class="wrong18">4: Yes and No</div>
+                </section>
+            </div>
+
+            <div class="tst7">
+                <section class="textinfa">
+                    <h1>Full Meaning of Js ?</h1>
+                    <div class="wrong19">1: Junior script</div>
+                    <div class="correct6">2: Java Script</div>
+                    <div class="wrong20">3: Join System</div>
+                    <div class="wrong21">4: Java Scaning</div>
+                </section>
+            </div>
+
+            <div class="tst8">
+                <section class="textinfa">
+                    <h1>What Does TailWind Do ?</h1>
+                    <div class="wrong22">1: For Scaning</div>
+                    <div class="correct7">2: For Styling</div>
+                    <div class="wrong23">3: For debugging code</div>
+                    <div class="wrong24">4: For Scripting</div>
+                </section>
+            </div>
+
+            <div class="tst9">
+                <section class="textinfa">
+                    <h1>Function of VScode ?</h1>
+                    <div class="wrong25">1: Browsing</div>
+                    <div class="correct8">2: Text Editor</div>
+                    <div class="wrong26">3: Sending Query</div>
+                    <div class="wrong27">4: Scaning Files</div>
+                </section>
+            </div>
+
+            <div class="tst10">
+                <section class="textinfa">
+                    <h1>10 percent of 1000 ?</h1>
+                    <div class="wrong28">1: 10</div>
+                    <div class="wrong29">2: 1</div>
+                    <div class="correct9">3: 100</div>
+                    <div class="wrong30">4: 1000</div>
+                </section>
+            </div>
+
+            <div class="tst11">
+                <section class="textinfa">
+                    <h1>20 percent of 10000 ?</h1>
+                    <div class="wrong31">1: 1000</div>
+                    <div class="wrong33">2: 20000</div>
+                    <div class="wrong32">3: 200</div>
+                    <div class="correct10">4: 2000</div>
+                </section>
+            </div>
+
+            <div class="tst12">
+                <section class="textinfa">
+                    <h1>9 * 9 ?</h1>
+                    <div class="correct11">1: 81</div>
+                    <div class="wrong28">2: 72</div>
+                    <div class="wrong29">3: 90</div>
+                    <div class="wrong30">4: 99</div>
+                </section>
+            </div>
+
+            <div class="tst13">
+                <section class="textinfa">
+                    <h1>Which is not a type of windows ?</h1>
+                    <div class="wrong31">1: Windows 7up</div>
+                    <div class="wrong32">2: Windows 10</div>
+                    <div class="wrong33">3: Windows 8</div>
+                    <div class="correct12">4: windows 5+</div>
+                </section>
+            </div>
+
+            <div class="tst14">
+                <section class="textinfa">
+                    <h1>What is Js represented with ?</h1>
+                    <div class="wrong34">1: ,</div>
+                    <div class="wrong35">2: ;</div>
+                    <div class="wrong36">3: .</div>
+                    <div class="correct13">4: #</div>
+                </section>
+            </div>
+
+            <div class="tst15">
+                <section class="textinfa">
+                    <h1>function of Ups ?</h1>
+                    <div class="wrong38">1: Helping in drawing</div>
+                    <div class="wrong37">2: Cooling Memory</div>
+                    <div class="correct14">3: Extra power</div>
+                    <div class="wrong39">4: System Processor</div>
+                </section>
+            </div>
+
+            <div class="tst16">
+                <section class="textinfa">
+                    <h1>What is RAM ?</h1>
+                    <div class="wrong40">1: Ready Acessibilty Memory</div>
+                    <div class="wrong41">2: Read Acesss Memory</div>
+                    <div class="wrong42">3: Rerun Acute Memory </div>
+                    <div class="correct15">4: Random Access Memory</div>
+                </section>
+            </div>
+
+            <div class="tst17">
+                <section class="textinfa">
+                    <h1>What is ROM ?</h1>
+                    <div class="wrong44">1: Ready open Memory</div>
+                    <div class="correct16">2: Read only Memory</div>
+                    <div class="wron43">3: Reinitialize onset Meort </div>
+                    <div class="wrong45">4: Random Access Memory</div>
+                </section>
+            </div>
+
+            <div class="tst18">
+                <section class="textinfa">
+                    <h1>function of Flash ?</h1>
+                    <div class="correct17">1: Transfer of Files</div>
+                    <div class="wrong46">2: Running query</div>
+                    <div class="wron47">3: House codes </div>
+                    <div class="wrong48">4: helps  in connection</div>
+                </section>
+            </div>
+
+            <div class="tst19">
+                <section class="textinfa">
+                    <h1>function of strong ?</h1>
+                    <div class="wrong49">1: To make html strong</div>
+                    <div class="wrong50">2: To enhance security</div>
+                    <div class="wron51">3: To encode your codes </div>
+                    <div class="correct18">4: To make tag bold</div>
+                </section>
+            </div>
+
+            <div class="tst20">
+                <section class="textinfa">
+                    <h1>list of programming frameworks except ?</h1>
+                    <div class="wrong53">1: React</div>
+                    <div class="correct19">2: Antal</div>
+                    <div class="wron54">3: Laravel </div>
+                    <div class="wrong52">4: Php</div>
+                </section>
+            </div>
+
+            <div class="tst21">
+                <section class="textinfa">
+                    <h1>React is made from PHP ?</h1>
+                    <div class="correct20">1: NO</div>
+                    <div class="wrong55">2: YES</div>
+                    <div class="wron56">3: Non of the above </div>
+                    <div class="wrong57">4: All of the above</div>
+                </section>
+            </div>
+
+            <div class="tst22">
+                <section class="textinfa">
+                    <h1>React native builds ?</h1>
+                    <div class="wrong58">1: Website</div>
+                    <div class="correct21">2: Mobile Apps</div>
+                    <div class="wron59">3: Website and Apps </div>
+                    <div class="wrong60">4: Cloud</div>
+                </section>
+            </div>
+
+            <div class="tst23">
+                <section class="textinfa">
+                    <h1>React builds ?</h1>
+                    <div class="correct22">1: Website</div>
+                    <div class="wrong62">2: Mobile App</div>
+                    <div class="wrong61">3: Website and Apps </div>
+                    <div class="wrong63">4: Cloud</div>
+                </section>
+            </div>
+
+            <div class="tst24">
+                <section class="textinfa">
+                    <h1>Firebase is a ?</h1>
+                    <div class="wrong64">1: Google Extension</div>
+                    <div class="wrong65">2: Text Editor</div>
+                    <div class="correct23">3: DataBase Store </div>
+                    <div class="wrong66">4: Programming Language</div>
+                </section>
+            </div>
+
+            <div class="tst25">
+                <section class="textinfa">
+                    <h1>jav is used to produce ?</h1>
+                    <div class="correct24">1: Games</div>
+                    <div class="wrong67">2: Website</div>
+                    <div class="wrong68">3: Ecommerce Website and app </div>
+                    <div class="wrong69">4: cloud Structure</div>
+                </section>
+            </div>
+
+            <div class="tst26">
+                <section class="textinfa">
+                    <h1>12 * 12 ?</h1>
+                    <div class="wrong70">1: 122</div>
+                    <div class="wrong71">2: 414</div>
+                    <div class="wrong72">3: 145 </div>
+                    <div class="correct25">4: 144</div>
+                </section>
+            </div>
+
+            <div class="tst27">
+                <section class="textinfa">
+                    <h1>9 / 9 ?</h1>
+                    <div class="wrong73">1: 0</div>
+                    <div class="wrong74">2: 9</div>
+                    <div class="correct26">3: 1 </div>
+                    <div class="wrong75">4: 0.1</div>
+                </section>
+            </div>
+
+            <div class="tst28">
+                <section class="textinfa">
+                    <h1>Vowel letters except ?</h1>
+                    <div class="wrong76">1: A</div>
+                    <div class="correct27">2: F</div>
+                    <div class="wrong77">3: O </div>
+                    <div class="wrong78">4: U</div>
+                </section>
+            </div>
+
+            <div class="tst29">
+                <section class="textinfa">
+                    <h1>list of female names except</h1>
+                    <div class="wrong79">1: Angel</div>
+                    <div class="correct28">2: Caleb</div>
+                    <div class="wrong80">3: Sharon </div>
+                    <div class="wrong81">4: miracle</div>
+                </section>
+            </div>
+
+            <div class="tst30">
+                <section class="textinfa">
+                    <h1>4 * 100</h1>
+                    <div class="wrong82">1: 4000</div>
+                    <div class="wrong83">2: 40</div>
+                    <div class="wrong84">3: 4100 </div>
+                    <div class="correct29">4: 400</div>
+                </section>
+            </div>
+
+            <div class="tst31">
+                <section class="textinfa">
+                    <h1>8 * 12</h1>
+                    <div class="correct30">1: 96</div>
+                    <div class="wrong85">2: 40</div>
+                    <div class="wrong86">3: 4100 </div>
+                    <div class="wrong87">4: 400</div>
+                </section>
+            </div>
+
+            <div class="tst32">
+                <section class="textinfa">
+                    <h1>what is BODMAS</h1>
+                    <div class="wrong88">1: Binomial Off Decimal Map Algebra Sum</div>
+                    <div class="correct31">2: Bracket Off Division Multiplication Addition Subtraction</div>
+                    <div class="wrong89">3: Bracket Octagon Denominator Multation Angles Subangles</div>
+                    <div class="wrong90">4: Billion Ocllion DelIONS Millions Anlions Stillons</div>
+                </section>
+            </div>
+
+            <div class="tst33">
+                <section class="textinfa">
+                    <h1>A Verb is a ?</h1>
+                    <div class="wrong91">1: Modifying Word</div>
+                    <div class="wrong92">2: Qualifying Word</div>
+                    <div class="correct32">3: Action Word</div>
+                    <div class="wrong93">4: Descrition Word</div>
+                </section>
+            </div>
+
+            <div class="tst34">
+                <section class="textinfa">
+                    <h1>An Adverb is a ?</h1>
+                    <div class="wrong94">1: Action Word</div>
+                    <div class="wrong95">2: defining Word</div>
+                    <div class="correct33">3: Modifying Word</div>
+                    <div class="wrong96">4: Qualifying Word</div>
+                </section>
+            </div>
+
+            <div class="tst35">
+                <section class="textinfa">
+                    <h1>An Adjective is a ?</h1>
+                    <div class="wrong97">1: Doing Word</div>
+                    <div class="wrong99">2: Modifying Word</div>
+                    <div class="wrong98">3: Descriptive Word</div>
+                    <div class="correct34">4: Qualifying Word</div>
+                </section>
+            </div>
+
+            <div class="tst36">
+                <section class="textinfa">
+                    <h1>Salt is for Soup, Sugar is for ?</h1>
+                    <div class="correct35">1: Tea</div>
+                    <div class="wrong100">2: Grills</div>
+                    <div class="wrong101">3: Pap</div>
+                    <div class="wrong102">4: Stew</div>
+                </section>
+            </div>
+
+            <div class="tst37">
+                <section class="textinfa">
+                    <h1>Turkey is a ?</h1>
+                    <div class="wrong103">1: Living Thing</div>
+                    <div class="wrong104">2: Meat</div>
+                    <div class="wrong105">3: Country</div>
+                    <div class="correct36">4: Animal</div>
+                </section>
+            </div>
+
+            <div class="tst38">
+                <section class="textinfa">
+                    <h1>what does Git do ?</h1>
+                    <div class="wrong106">1: program operating system</div>
+                    <div class="wrong107">2: saves keys</div>
+                    <div class="correct37">3: saves, track code</div>
+                    <div class="wrong108">4: Initialize program for hosting</div>
+                </section>
+            </div>
+
+            <div class="tst39">
+                <section class="textinfa">
+                    <h1>Which is a flying Animal ?</h1>
+                    <div class="wrong109">1: Snake</div>
+                    <div class="wrong110">2: Lion</div>
+                    <div class="wrong111">3: bed bug</div>
+                    <div class="correct38">4: Hawk</div>
+                </section>
+            </div>
+
+            <div class="tst40">
+                <section class="textinfa">
+                    <h1>Which is a creeping Animal ?</h1>
+                    <div class="wrong112">1: Vulture</div>
+                    <div class="correct39">2: Lizard</div>
+                    <div class="wrong113">3: Ant</div>
+                    <div class="wrong114">4: Snail</div>
+                </section>
+            </div>
+
+            <div class="tst41">
+                <section class="textinfa">
+                    <h1>Which is a Reptile ?</h1>
+                    <div class="wrong115">1: Vulture</div>
+                    <div class="correct40">2: Snake</div>
+                    <div class="wrong116">3: Dragon fly</div>
+                    <div class="wrong117">4: Earth worm</div>
+                </section>
+            </div>
+
+            <div class="tst42">
+                <section class="textinfa">
+                    <h1>Which is a Amphibian ?</h1>
+                    <div class="wrong118">1: Crocrokes</div>
+                    <div class="wrong119">2: Snake</div>
+                    <div class="wrong120">3: Dragon </div>
+                    <div class="correct41">4: Frog</div>
+                </section>
+            </div>
+
+            <div class="tst43">
+                <section class="textinfa">
+                    <h1>Which is a Mammal ?</h1>
+                    <div class="correct42">1: Monkey</div>
+                    <div class="wrong121">2: Tiger</div>
+                    <div class="wrong122">3: Elephant</div>
+                    <div class="wrong123">4: Dragon</div>
+                </section>
+            </div>
+
+            <div class="tst44">
+                <section class="textinfa">
+                    <h1>Which is a Cold Blooded Animal ?</h1>
+                    <div class="wrong124">1: Chiken</div>
+                    <div class="correct43">2: Snake</div>
+                    <div class="wrong125">3: Eagle</div>
+                    <div class="wrong126">4: Hookworm</div>
+                </section>
+            </div>
+
+            <div class="tst45">
+                <section class="textinfa">
+                    <h1>Which is not a WINGED Animal ?</h1>
+                    <div class="wrong127">1: Parrot</div>
+                    <div class="wrong128">2: Turkey</div>
+                    <div class="wrong129">3: Bat</div>
+                    <div class="correct44">4: Elephant</div>
+                </section>
+            </div>
+
+            <div class="tst46">
+                <section class="textinfa">
+                    <h1>Which is not a Bird Animal ?</h1>
+                    <div class="wrong130">1: Peacock</div>
+                    <div class="wrong131">2: Ostrich</div>
+                    <div class="correct45">3: Bear</div>
+                    <div class="wrong132">4: Dove</div>
+                </section>
+            </div>
+
+
+            <div class="tst47">
+                <section class="textinfa">
+                    <h1>Types of Road EXCEPT = ?</h1>
+                    <div class="correct46">1: Double Lane Road</div>
+                    <div class="wrong133">2: Truck A</div>
+                    <div class="wrong134">3: Truck B</div>
+                    <div class="wrong135">4: Truck C</div>
+                </section>
+            </div>
+
+            <div class="tst48">
+                <section class="textinfa">
+                    <h1>Which is a Herbivorous Animal ?</h1>
+                    <div class="correct47">1: Goat</div>
+                    <div class="wrong136">2: Dog</div>
+                    <div class="wrong137">3: Mosquito</div>
+                    <div class="wrong138">4: Idoit</div>
+                </section>
+            </div>
+
+            <div class="tst49">
+                <section class="textinfa">
+                    <h1>Number of Human Teeth ?</h1>
+                    <div class="wrong140">1: 33</div>
+                    <div class="wrong139">2: 31</div>
+                    <div class="correct48">3: 32</div>
+                    <div class="wrong141">4: Idoit</div>
+                </section>
+            </div>
+
+            <div class="tst50">
+                <section class="textinfa">
+                    <h1>Thank You is for ?</h1>
+                    <div class="wrong142">1: Request</div>
+                    <div class="correct49">2: Appreciation</div>
+                    <div class="wrong143">3: Command</div>
+                    <div class="wrong144">4: Mourning</div>
+                </section>
+            </div>
+
+
             <div  class="lastman">
-                <p><b>1</b>of <b>50</b> Questions</p>
+                <p><b id="qNumb">1</b>of <b>50</b> Questions</p>
                 <button type="button" class="btnina text-blue-700">Next </button>
             </div>
         </div>
@@ -58,14 +553,16 @@
         <!-- result section -->
          
         <div class="ress">
-            <h1>Congratulations !</h1>
-            <h2>You have completed the test</h2>
-            <span>you scored <p>1</p> out of <p>50</p></span>
+            <h1 id="realscore1">Congratulations !</h1>
+            <h2 id="realscore2">You have completed the test</h2>
+            <span>you scored <p id="realscore3">1</p> out of <p>50</p></span>
             <div class="bigoneend">
-                <button type="button" class="btn me-5 text-blue-700">Start Quiz</button>
+                <button type="button" class="btn me-5 text-blue-700">ReTake Quiz</button>
                 <button type="button" class="btn text-blue-700">End Quiz </button>
             </div>
         </div>
     </div>
+
+    <script src="quiz.js"></script>
 </body>
 </html>
